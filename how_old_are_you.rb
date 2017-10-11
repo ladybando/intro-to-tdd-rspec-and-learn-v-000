@@ -8,8 +8,6 @@ describe "current_age_for_birth_year method" do
 
     age_of_person = current_age_for_birth_year(birth_year)
     expect(age_of_person).to eq(answer)
-    def current_age_for_birth_year(birth_year)
-  Time.now.year - birth_year
-end
+
   end
 end
